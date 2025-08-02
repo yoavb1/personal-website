@@ -3,11 +3,40 @@
 {% block title %}Projects{% endblock %}
 
 {% block content %}
-<h2>Projects</h2>
-<ul>
-    <li><strong>Project 1:</strong> A short description of your first project.</li>
-    <li><strong>Project 2:</strong> A short description of another project.</li>
-    <li><strong>Project 3:</strong> You can add more or even link to GitHub.</li>
-</ul>
-<p>If you want, I can help you connect this page to a database and make it dynamic.</p>
+<h2 style="text-align: center; margin-bottom: 40px;">Projects</h2>
+
+<div style="max-width: 850px; margin: 0 auto;">
+
+  <!-- Project 4 -->
+  <section>
+    <h3><i class="fas fa-comments" style="color: #f39c12; margin-right: 10px;"></i>Words Matter: Exploring Text Presentation in AI-Driven Conversations</h3>
+    <p>This ongoing project explores human-AI chatbot interaction, focusing on how different text and history display formats influence users’ communication experience, trust, cognitive workload, and task performance. By manipulating key elements of conversational display, such as word-by-word versus all-at-once message delivery, and visible versus on-demand conversation history, we aim to better understand how interface design choices shape user behavior and perceptions in chatbot interactions.</p>
+  </section>
+
+  <!-- Project 1 -->
+  <section style="margin-bottom: 50px;">
+    <h3><i class="fas fa-brain" style="color: #4a90e2; margin-right: 10px;"></i>When to Rely on AI: Modeling Human Use of Decision Support Systems</h3>
+    <p>In this project, we examined how people decide whether to use a decision support system (DSS) when making uncertain, high-stakes decisions, such as determining whether a patient requires medical intervention.</p>
+    <p>We developed a normative model that defines the optimal conditions for purchasing such a system, and ran an online experiment simulating a physician’s task. Participants reviewed patient data and made binary decisions (intervention or not). Before each decision, they could choose whether to pay for support from a system that provided its own recommendation.</p>
+    <p>What we found: Using the DSS improved both decision accuracy and speed, but participants didn’t always use it optimally. Their decisions to purchase support were shaped by prior experiences—if the system had helped before, they were more likely to use it again.</p>
+    <p><strong>Key insight:</strong> People's use of algorithmic support is guided not only by rational cost-benefit calculations, but also by how the system performed in the past. This has important implications for designing systems that people learn to trust and adopt over time.</p>
+  </section>
+
+  <!-- Project 2 -->
+  <section style="margin-bottom: 50px;">
+    <h3><i class="fas fa-retweet" style="color: #7b68ee; margin-right: 10px;"></i>When Help Repeats What You Already Know: How Redundancy Affects Trust and Use of Decision Support</h3>
+    <p>This project explores how people interact with decision support systems (DSS) that provide information similar to, or different from, what they already know. Across three experiments, we studied when users choose to pay for DSS help, how redundant information affects their performance, and how it shapes their trust in the system.</p>
+    <p>We found that people were more likely to seek help from systems that offered new, non-redundant insights. Receiving information that simply confirmed what they already believed sometimes led to lower performance, and trust in the system varied depending on how useful its input was.</p>
+    <p>These findings suggest that when designing decision aids, it's not enough for a system to be accurate—it also needs to add value beyond what the user already knows. Helping users recognize that value is key to building trust and ensuring effective use.</p>
+  </section>
+
+  <!-- Project 3 -->
+  <section style="margin-bottom: 50px;">
+    <h3><i class="fas fa-layer-group" style="color: #20c997; margin-right: 10px;"></i>Beyond Accuracy: How Interface Design Shapes the Use of Decision Support Systems</h3>
+    <p>This project investigates how uncertainty and the way a decision support system (DSS) presents information affect people’s tendency to use it, and how that, in turn, shapes their performance, workload, and perceptions.</p>
+    <p>We found that people were more likely to purchase aid from DSS when their own information was highly uncertain or the DSS was highly accurate. They also used the system more effectively when its output was integrated into the same display as the raw information, even if more detailed formats technically gave them more data.</p>
+    <p><strong>Key takeaway:</strong> When people can choose whether to engage with a DSS, the format of its output matters, as its accuracy does. Intuitive, well-integrated displays encourage use and lead to better decisions.</p>
+  </section>
+
+</div>
 {% endblock %}
