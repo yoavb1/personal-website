@@ -15,4 +15,7 @@ def contact(request):
 def teaching(request):
     return render(request, 'teaching.html')
 
+def awards(request):
+    return render(request, 'awards.html')
+
 
