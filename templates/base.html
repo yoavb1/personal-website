@@ -70,6 +70,23 @@
             text-align: center;
             padding: 15px 0;
             margin-top: 40px;
+            font-size: 1.1rem;
+        }
+
+        footer a {
+            color: #ecf0f1;
+            margin: 0 12px;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+
+        footer a:hover {
+            color: #b0c4de;
+        }
+
+        footer i {
+            font-size: 1.5rem;
+            vertical-align: middle;
         }
 
         h2 {
@@ -89,7 +106,6 @@
             <a href="{% url 'publications' %}">Publications</a>
             <a href="{% url 'awards' %}">Awards</a>
             <a href="{% url 'teaching' %}">Teaching</a>
-            <a href="{% url 'contact' %}">Contact</a>
         </nav>
     </header>
 
@@ -98,7 +114,16 @@
     </main>
 
     <footer>
-        <p>© 2025 Yoav Ben Yaakov</p>
+        <a href="https://github.com/yoavb1" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github" title="GitHub"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yoav-ben-yaakov/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin" title="LinkedIn"></i>
+        </a>
+        <a href="mailto:yoavbny@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope" title="Email"></i>
+        </a>
+        <p style="margin-top: 8px;">© 2025 Yoav Ben Yaakov</p>
     </footer>
 </body>
 </html>
